@@ -2,8 +2,9 @@ import React, {useEffect, useState} from 'react'
 import { Layout } from '../components'
 import '../styles/globals.scss'
 import type { AppProps } from 'next/app'
-import { useRouter } from "next/router";
 import * as gtag from "../lib/gtag";
+
+import { useRouter } from "next/router";
 
 const isProduction = process.env.NODE_ENV === "production";
 
